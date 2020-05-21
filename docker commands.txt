@@ -1,0 +1,16 @@
+
+
+docker build -t textsummarization .
+
+docker run -it -d -p 8888:5000 textsummarization  
+
+docker run -it textsummarization
+
+docker container ls -a 
+
+docker system prune
+
+docker stop conatinername
+
+docker rmi imagename
+
